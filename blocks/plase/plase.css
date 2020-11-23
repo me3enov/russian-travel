@@ -32,7 +32,7 @@
 
 @media screen and (min-width: 768px) {
   .plase {
-    grid-template-columns: 340px 352px;
+    grid-template-columns: repeat(auto-fit, minmax(340px, max-content) minmax(352px, max-content));
     grid-template-areas: 
       "plase__title plase__website"
       "plase__image plase__text";
@@ -42,7 +42,7 @@
 
 @media screen and (min-width: 1024px) {
   .plase {
-    grid-template-columns: 440px 456px;
+    grid-template-columns: repeat(auto-fit, minmax(440px, max-content) minmax(456px, max-content));
     grid-template-areas: 
       "plase__title plase__website"
       "plase__image plase__text";
@@ -52,7 +52,7 @@
 
 @media screen and (min-width: 1280px) {
   .plase {
-    grid-template-columns: 460px 484px;
+    grid-template-columns: repeat(auto-fit, minmax(min-content, 460px) minmax(min-content, 484px));
     grid-template-areas: 
       "plase__title plase__website"
       "plase__image plase__text";
