@@ -65,10 +65,10 @@
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 
 /* mix */
-@import url(../blocks/root/_margin/root_margin-bottom-content.css);
-@import url(../blocks/root/_margin/root_margin-top-header.css);
-@import url(../blocks/root/_margin/root_margin-width-header.css);
-@import url(../blocks/root/_margin/root_margin-width-lead.css);
-@import url(../blocks/root/_margin/root_margin-width-intro.css);
-@import url(../blocks/root/_margin/root_margin-width-plases.css);
-@import url(../blocks/root/_margin/root_margin-width-cover.css);
+@import url(../blocks/root/_margin/root_margin_bottom-content.css);
+@import url(../blocks/root/_margin/root_margin_top-header.css);
+@import url(../blocks/root/_margin/root_margin_width-header.css);
+@import url(../blocks/root/_margin/root_margin_width-lead.css);
+@import url(../blocks/root/_margin/root_margin_width-intro.css);
+@import url(../blocks/root/_margin/root_margin_width-plases.css);
+@import url(../blocks/root/_margin/root_margin_width-cover.css);
