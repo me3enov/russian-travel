@@ -4,3 +4,35 @@
   grid-template-columns: 1fr;
   align-items: start;
 }
+
+@media screen and (max-width: 767px) {
+  .cover {
+    margin-bottom: 64px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .cover {
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cover {
+    margin-bottom: 92px;
+  }
+}
+
+@media screen and (min-width: 1279px) {
+  .cover {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .cover {
+    margin-right: 48px;
+    margin-left: 48px;
+  }
+}

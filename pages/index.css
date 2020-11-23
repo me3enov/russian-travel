@@ -32,12 +32,14 @@
 @import url(../blocks/intro/__list/intro__list.css);
 
 /* photo-grid */
+@import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/gallery/gallery.css);
 @import url(../blocks/gallery/gallery.css);
 @import url(../blocks/gallery/__item/gallery__item.css);
 @import url(../blocks/gallery/__image/gallery__image.css);
 
 /* plases */
+@import url(../blocks/plases/plases.css);
 @import url(../blocks/plases/__container/plases__container.css);
 @import url(../blocks/plase/plase.css);
 @import url(../blocks/plase/__title/plase__title.css);
@@ -63,12 +65,3 @@
 @import url(../blocks/footer/__list/footer__list.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
-
-/* mix */
-@import url(../blocks/root/_margin/root_margin_bottom-content.css);
-@import url(../blocks/root/_margin/root_margin_top-header.css);
-@import url(../blocks/root/_margin/root_margin_width-header.css);
-@import url(../blocks/root/_margin/root_margin_width-lead.css);
-@import url(../blocks/root/_margin/root_margin_width-intro.css);
-@import url(../blocks/root/_margin/root_margin_width-plases.css);
-@import url(../blocks/root/_margin/root_margin_width-cover.css);

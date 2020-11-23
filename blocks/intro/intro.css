@@ -2,3 +2,34 @@
   display: flex;
   flex-direction: column;
 }
+
+@media screen and (max-width: 767px) {
+  .intro {
+    margin-bottom: 64px;
+    margin-right: 16px;
+    margin-left: 16px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .intro {
+    margin-bottom: 88px;
+    margin-right: 24px;
+    margin-left: 24px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .intro {
+    margin-bottom: 92px;
+    margin-right: 48px;
+    margin-left: 48px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .intro {
+    margin-right: 148px;
+    margin-left: 148px;
+  }
+}

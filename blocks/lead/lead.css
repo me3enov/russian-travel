@@ -4,3 +4,37 @@
   justify-content: center;
   align-items: center;
 }
+
+@media screen and (max-width: 767px) {
+  .lead {
+    margin-bottom: 64px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .lead {
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .lead {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lead {
+    margin-bottom: 92px;
+    margin-right: 48px;
+    margin-left: 48px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lead {
+    margin-right: 148px;
+    margin-left: 148px;
+  }
+}
