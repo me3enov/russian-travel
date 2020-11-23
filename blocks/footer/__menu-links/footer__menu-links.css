@@ -1,0 +1,19 @@
+.footer__menu-links {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__menu-links {
+    flex-direction: column;
+    margin-bottom: 48px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer__menu-links {
+    flex-direction: row;
+  }
+}

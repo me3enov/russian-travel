@@ -1,0 +1,74 @@
+/* normalize css*/
+@import url(../vendor/normalize.css);
+
+/* fonds */
+@import url(../fonds/Inter-Web/inter.css);
+
+/* root */
+@import url(../blocks/root/root.css);
+
+/* header */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__language-selection/header__language-selection.css);
+@import url(../blocks/header/__lang-links/header__lang-links.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/_state/header__lang-link_state-active.css);
+
+/* lead */
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__image-block/lead__image-block.css);
+@import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__caption/lead__caption.css);
+
+/* intro */
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__list-container/intro__list-container.css);
+@import url(../blocks/intro/__item/intro__item.css);
+@import url(../blocks/intro/__list/intro__list.css);
+
+/* photo-grid */
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__item/gallery__item.css);
+@import url(../blocks/gallery/__image/gallery__image.css);
+
+/* plases */
+@import url(../blocks/plases/__container/plases__container.css);
+@import url(../blocks/plase/plase.css);
+@import url(../blocks/plase/__title/plase__title.css);
+@import url(../blocks/plase/__website/plase__website.css);
+@import url(../blocks/plase/__url-heading/plase__url-heading.css);
+@import url(../blocks/plase/__link/plase__link.css);
+@import url(../blocks/plase/__image/plase__image.css);
+@import url(../blocks/plase/__text/plase__text.css);
+@import url(../blocks/plase/__paragraph/plase__paragraph.css);
+
+/* cover */
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__background/cover__background.css);
+@import url(../blocks/cover/__link/cover__link.css);
+@import url(../blocks/cover/__text/cover__text.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+
+/* footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__menu/footer__menu.css);
+@import url(../blocks/footer/__menu-links/footer__menu-links.css);
+@import url(../blocks/footer/__list/footer__list.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+
+/* mix */
+@import url(../blocks/root/_margin/root_margin-bottom-content.css);
+@import url(../blocks/root/_margin/root_margin-top-header.css);
+@import url(../blocks/root/_margin/root_margin-width-header.css);
+@import url(../blocks/root/_margin/root_margin-width-lead.css);
+@import url(../blocks/root/_margin/root_margin-width-intro.css);
+@import url(../blocks/root/_margin/root_margin-width-plases.css);
+@import url(../blocks/root/_margin/root_margin-width-cover.css);

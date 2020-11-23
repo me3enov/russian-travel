@@ -1,0 +1,7 @@
+.cover__background {
+  display: flex;
+  align-self: center;
+  max-width: 100%;
+  grid-column: 1/1;
+  grid-row: 1/1;
+}

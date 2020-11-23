@@ -1,0 +1,5 @@
+.plase__image {
+  display: flex;
+  align-self: flex-start;
+  max-width: 100%;
+}

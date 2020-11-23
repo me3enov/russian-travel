@@ -1,0 +1,17 @@
+@media screen and (max-width: 767px) {
+  .root_margin-bottom-content {
+    margin-bottom: 64px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .root_margin-bottom-content {
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .root_margin-bottom-content {
+    margin-bottom: 92px;
+  }
+}

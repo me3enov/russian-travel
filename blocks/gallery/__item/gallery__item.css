@@ -1,0 +1,34 @@
+.gallery__item {
+  display: flex;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .gallery__item {
+    min-width: 288px;
+    min-height: 216px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .gallery__item {
+    min-width: 352px;
+    min-height: 264px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .gallery__item {
+    min-width: 300px;
+    min-height: 252px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .gallery__item {
+    min-width: 284px;
+    min-height: 213px;
+  }
+}

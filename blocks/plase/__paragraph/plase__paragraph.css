@@ -1,0 +1,25 @@
+.plase__paragraph {
+  padding: 0;
+  margin: 0 0 26px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 163%;
+  color: #fff;
+}
+
+@media screen and (max-width: 1023px) {
+  .plase__paragraph {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .plase__paragraph {
+    font-size: 18px;
+  }
+}
+
+.plase__paragraph:last-of-type {
+  margin: 0;
+}

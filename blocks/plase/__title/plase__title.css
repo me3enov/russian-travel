@@ -1,0 +1,42 @@
+.plase__title {
+  display: flex;
+  padding: 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  color: #fff;
+}
+
+@media screen and (max-width: 425px) {
+  .plase__title {
+    font-size: 32px;
+    line-height: 109%;
+  }
+}
+
+@media screen and (min-width: 426px) {
+  .plase__title {
+    font-size: 38px;
+    line-height: 110%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .plase__title {
+    margin: 0 16px 0 16px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .plase__title {
+    font-size: 42px;
+    line-height: 110%;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .plase__title {
+    font-size: 72px;
+    line-height: 106%;
+  }
+}

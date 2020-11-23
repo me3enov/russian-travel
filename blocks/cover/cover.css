@@ -1,0 +1,6 @@
+.cover {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: start;
+}

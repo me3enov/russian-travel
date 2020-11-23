@@ -1,0 +1,20 @@
+@media screen and (max-width: 1023px) {
+  .root_margin-width-lead {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .root_margin-width-lead {
+    margin-right: 48px;
+    margin-left: 48px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .root_margin-width-lead {
+    margin-right: 148px;
+    margin-left: 148px;
+  }
+}

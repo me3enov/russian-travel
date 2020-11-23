@@ -1,0 +1,28 @@
+.plases__container {
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 424px) {
+  .plases__container {
+    gap: 50px;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .plases__container {
+    gap: 73px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .plases__container {
+    gap: 80px;
+  }
+}

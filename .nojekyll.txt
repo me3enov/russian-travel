@@ -1,0 +1,22 @@
+20
+30
+45
+70
+105
+160
+240
+
+First Name and Last Name: Artem Mezenov
+
+Street address (строка 1): 510 Carroll Dr
+
+Street address (строка 2): Ste 926598
+
+City: New Castle
+
+State: Delaware (DE)
+
+ZIP: 19720
+
+Phone: 412-567-3011
+

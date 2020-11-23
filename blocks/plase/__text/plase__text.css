@@ -1,0 +1,20 @@
+.plase__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .plase__text {
+    margin-right: 16px;
+    margin-left: 16px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .plase__text {
+    margin: 0;
+  }
+}
