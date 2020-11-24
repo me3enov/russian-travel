@@ -5,6 +5,7 @@
   font-weight: normal;
   text-align: center;
   color: #fff;
+  padding-bottom: 33px;
 }
 
 @media screen and (max-width: 425px) {
@@ -12,7 +13,6 @@
     max-width: 288px;
     font-size: 14px;
     line-height: 114%;
-    padding-bottom: 33px;
   }
 }
 
