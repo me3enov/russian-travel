@@ -1,3 +1,4 @@
 .header__lang-link_state-active {
-  text-decoration-line: underline;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
 }

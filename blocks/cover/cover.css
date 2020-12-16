@@ -1,7 +1,11 @@
 .cover {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 100%;
   grid-template-columns: 100%;
-  align-items: start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
 }
 
 @media screen and (max-width: 767px) {

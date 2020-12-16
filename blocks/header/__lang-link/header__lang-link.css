@@ -4,7 +4,8 @@
   font-style: normal;
   font-weight: normal;
   text-align: right;
-  text-decoration-line: none;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
   color: #fff;
 }
 
@@ -24,5 +25,7 @@
 
 .header__lang-link:hover {
   opacity: .8;
+  -webkit-transition: .4s;
+  -o-transition: .4s;
   transition: .4s;
 }

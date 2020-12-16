@@ -1,8 +1,9 @@
 .plases__container {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: (auto)[1];
   grid-template-columns: repeat(1, auto);
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
   list-style-type: none;
   margin: 0;

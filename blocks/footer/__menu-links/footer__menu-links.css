@@ -1,4 +1,6 @@
 .footer__menu-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   list-style: none;
   padding: 0;
@@ -7,13 +9,19 @@
 
 @media screen and (max-width: 767px) {
   .footer__menu-links {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin-bottom: 48px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .footer__menu-links {
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
 }

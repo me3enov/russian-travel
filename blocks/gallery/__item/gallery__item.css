@@ -1,4 +1,6 @@
 .gallery__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   overflow: hidden;
   padding: 0;
