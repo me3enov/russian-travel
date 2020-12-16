@@ -6,6 +6,8 @@
   text-align: right;
   -webkit-text-decoration-line: none;
           text-decoration-line: none;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-tap-highlight-color: transparent;
   color: #fff;
 }
 
