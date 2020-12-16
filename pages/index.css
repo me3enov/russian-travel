@@ -4,7 +4,10 @@
 /* fonds */
 @import url(../vendor/fonts/Inter-Web/inter.css);
 
-/* root */
+/* body */
+@import url(../blocks/body/body.css);
+
+/* body */
 @import url(../blocks/root/root.css);
 
 /* header */
